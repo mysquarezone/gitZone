@@ -1,0 +1,19 @@
+git init //will make a location as git
+
+git status //give untracked files and changes that are needed to commit and modifed files
+
+git add . // add the files to staging area
+git add -u //only modifed changes will be added to stagig area
+
+NOTE - git will never consider empty folder
+
+git commit -m "Message" //commits to git 
+
+git log //will give the commit logs
+
+git checkout <commit entry> //will go back to older data
+
+git remote add origin https://github.com/rskr87/gitPractice.git
+
+git push -u origin master
+
