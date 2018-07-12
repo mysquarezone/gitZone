@@ -28,13 +28,20 @@ git branch
 
 git branch -r // to get remote branches
 
- git checkout -b v1beta1 //create new branch
+git checkout -b v1beta1 //create new branch
 
- git checkout master // to go back to msater branch
+git checkout master // to go back to msater branch
 
-  git push origin master //origin is remote and master is branch here
+git push origin master //origin is remote and master is branch here
 
-  
+git checkout v1beta1 //to switch branch
+
+git tag -a "V1Ready"
+
+git tag
+
+git push --tags //pushing tags to github
+
+git
 
 
-git checkout -b v1beta1
