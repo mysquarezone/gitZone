@@ -17,3 +17,4 @@ git remote add origin https://github.com/rskr87/gitPractice.git
 
 git push -u origin master
 
+git checkout -b v1beta1
