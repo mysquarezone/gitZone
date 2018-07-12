@@ -13,8 +13,28 @@ git log //will give the commit logs
 
 git checkout <commit entry> //will go back to older data
 
+git config --global user.name
+git config --global user.email
+
+git clone "https://github.com/rskr87/gitPractice.git"
+
 git remote add origin https://github.com/rskr87/gitPractice.git
 
-git push -u origin master
+git push -u origin master //push it to above set folder
+
+git pull
+
+git branch
+
+git branch -r // to get remote branches
+
+ git checkout -b v1beta1 //create new branch
+
+ git checkout master // to go back to msater branch
+
+  git push origin master //origin is remote and master is branch here
+
+  
+
 
 git checkout -b v1beta1
