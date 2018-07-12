@@ -32,6 +32,8 @@ git branch -r // to get remote branches
 
  git checkout master // to go back to msater branch
 
- 
+  git push origin master //origin is remote and master is branch here
+
+  
 
 
